@@ -1,0 +1,196 @@
+
+nav{
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+.navbar-toggler{
+    margin: 0;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+.w-15{
+    width: 15% !important;
+}
+#home{
+    background: url(../images/pexels-lukas-574070-min.jpg)100% 90%/cover no-repeat;
+    color: #6d6c6c;
+    width: calc(100vw - 1px);
+    height: calc(100vh - 1px);
+}
+.me{
+    width: 100%;
+}
+.project{
+    background: rgba(213, 212, 212, 0.502) ;
+    height: 450px;
+    width: 370px;
+    padding: 0rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem auto 4rem;
+    border: 1px solid rgba(62, 62, 62, 0.258);
+    transition: all .5s;
+}
+.project:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.project-img-container{
+    height: 60%;
+    width: 100%;
+}
+.project-details{
+    padding: 1rem;
+    border-top: 1px solid rgba(145, 145, 145, 0.413);
+}
+.project-links button{
+    width: 40%;
+    margin: auto;
+    outline: transparent;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgba(161, 158, 158, 0.252);
+}
+button a{
+    text-decoration: none;
+    color: initial;
+    font-size: 1.3rem;
+    padding-left: 0 !important;
+}
+
+.pro1 .project-img-container{
+    background: url(../images/project1-desktop-design.jpg)left/cover no-repeat;
+}
+.pro2 .project-img-container{
+    background: url(../images/project2.jpg)top/cover no-repeat;
+}
+.pro3 .project-img-container{
+    background: url(../images/project1-desktop-design.jpg)top/cover no-repeat;
+}
+
+button > span.row >*{
+    width: 45%;
+}
+.link-container{
+    padding: .3rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.project-links button:last-child img{
+    width: 40%;
+}
+
+.find-more{
+    /* padding: 3rem; */
+    /* position: relative; */
+    background:rgb(255, 255, 255) ;
+}
+.find-more a {
+    background:rgb(255, 255, 255) ;
+    width: 125px;
+    display: block; 
+    transform: translateY(-65%);
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.find-more div img{
+    background:rgba(213, 212, 212, 0.669) ;
+    border-radius: 50%;
+}
+
+.find-more img:hover{
+    animation: fadeInOut .5s linear;
+    /* animation-duration: 2s; */
+}
+@keyframes fadeInOut{
+    /* 0%{transform: rotateY(0);} */
+    0%{transform: translateX(0%);}
+    25%{transform: translateX(200%);}
+    50%{transform: translateY(-200%);}
+    75%{transform: translateX(-200%);}
+    100%{transform: translateX(0%);}
+}
+
+.contact{
+    /* background-color: aquamarine; */
+}
+.contact img{
+    /* background: red; */
+    /* width: 10%; */
+}
+.holder{
+    /* background-color: yellow; */
+}
+.holder div>img{
+    width: 30px;
+    /* font-size: 1rem; */
+    /* background-color: red; */
+}
+
+/* textarea{
+    
+} */
+input,textarea,button{
+    border-radius: 1.5rem;
+    /* padding: .7rem; */
+    /* outline: transparent; */
+    margin: 1rem auto;
+    /* border: none */
+}
+.btn{
+    border: 2px solid transparent !important; 
+    transition: all .5s;
+    background:  rgba(161, 158, 158, 0.252);
+    color: initial;
+}
+.btn:hover{
+    border: 2px solid rgba(161, 158, 158, 0.626) !important; 
+    transform: scale(1.1);
+}
+input{
+    padding: .7rem;
+}
+#contact-email{
+    padding: 0;
+    padding-left: .625rem;
+    background-color: unset;
+    border: none;
+    margin: 0 ;
+    /* border-radius: none; */
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 992px){
+    .w-sm-100{
+        width: 100% !important
+    }
+}
+
+
+footer{
+    background:rgba(213, 212, 212, 0.502)
+}
+#footer .row div{
+    margin: auto 1rem ;
+    width: unset  !important;
+    padding: .5rem;
+    border-radius: 100%;
+    border: 1px solid rgba(97, 97, 97, 0.504);
+    transition: all .5s;
+    cursor: pointer;
+}
+#footer .row div:hover{
+    background: white;
+    border-radius: 100%;
+    padding: .5rem;
+    border-color:green;
+    transform: scale(1.1);
+
+}
+footer .row{
+    padding: 2rem 0;
+}
