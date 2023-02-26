@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "monrserrat" , sans-serif;
+}
+h1 , h2 , h3{
+    font-weight: 900;
+    line-height: 1.5;
+}
+h1{
+    font-size: 3.5rem;
+} 
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 7% !important; 
+    
+}
+#title{
+    background: #ff4c68 ;
+    /* background: rebeccapurple;
+    border: 1px solid; */
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "ubuntu", sans-serif;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "monrserrat" , sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.i-ph{
+    transform: rotate(20deg);
+    position: relative;
+    /* z-index: -1; */
+    
+}
+#features{
+    background-color: #fff;
+    /* z-index: 3; */
+}
+
+.i-ph-con{
+    height: 70vh;
+}
+.f-img{
+    font-size: 60px;
+    color:#ef8172;
+}
+.f-img:hover{
+    color:#ff4c63;
+    
+}
+p{
+    color:#8f8f8f;
+    font-size: 1.1rem;
+}
+
+/* testimonials */
+
+#testimonials{
+    background: #ef8172;
+    color: white;
+    z-index: 3;
+}
+.testimonial-img{
+    width: 10%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press section */
+#press{
+    background: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing  */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    padding: 3% 15%;
+    background:#ff4c68 ;
+}
+/* footer */
+#footer{
+    margin: 7% 15%;
+}
+.social-icons{
+    margin: 20px 10px;
+}
+@media only screen and (max-width:992px){
+    .i-ph{
+        transform: rotate(0deg);
+        position: static;
+        /* z-index: -1; */
+        
+    }
+    .i-ph-con{
+        height: 100%;
+    }
+}
