@@ -20,11 +20,11 @@ nav {
   background: linear-gradient(
     167deg,
     rgba(96, 150, 180, 1) 0%,
-    rgba(189, 205, 214, 0.9752275910364145) 29%,
+    rgba(47, 110, 146, 0.975) 29%,
     rgba(147, 191, 207, 1) 62%,
     rgba(238, 233, 218, 1) 100%
   );
-  background-size: 400%;
+  background-size: 200%;
   animation: bg-mov 4s linear infinite;
   color: rgb(39, 58, 65);
   width: calc(100vw - 1px);
@@ -96,13 +96,13 @@ button a {
 }
 
 .pro1 .project-img-container {
-  background: url(../images/project1-desktop-design.jpg) left/cover no-repeat;
+  background: url(../images/etch.png) top/cover no-repeat;
 }
 .pro2 .project-img-container {
   background: url(../images/project2.jpg) top/cover no-repeat;
 }
 .pro3 .project-img-container {
-  background: url(../images/tindog.jpg) center/cover no-repeat;
+  background: url(../images/calculator.png) top/ cover no-repeat;
 }
 
 button > span.row > * {
@@ -123,9 +123,9 @@ button > span.row > a:last-child {
 }
 .find-more a {
   background: rgb(255, 255, 255);
-  width: 125px;
+  width: 100px;
   display: block;
-  transform: translateY(-65%);
+  transform: translateY(-70%);
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
@@ -134,6 +134,7 @@ button > span.row > a:last-child {
 .find-more div img {
   background: rgba(213, 212, 212, 0.669);
   border-radius: 50%;
+  width: 60px;
 }
 
 /* .find-more img:hover {
@@ -223,6 +224,15 @@ textarea {
   margin: 0;
   text-decoration: underline;
 }
+.error {
+  background-color: rgb(208, 208, 208);
+  color: #fb0101;
+  border-radius: 1rem;
+  /* visibility: hidden; */
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
 @media only screen and (max-width: 992px) {
   .w-sm-100 {
     width: 100% !important;
@@ -275,4 +285,11 @@ footer img {
   100% {
     background-position: 0%;
   }
+}
+
+/* dynamic classes */
+
+.unHide {
+  /* visibility: visible; */
+  height: 2rem;
 }
